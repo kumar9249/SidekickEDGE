@@ -5,7 +5,7 @@ filename = input("Enter the file name: ")
 
 if filename is not None:
 
-    filepath = r'C:\Users\Lenovo\Desktop\SidekickEDGE\ ' + filename + '.xlsx'
+    filepath = r'D:\SidekickEDGE\ ' + filename + '.xlsx'
     
     try:
         df1 = pd.read_excel(filepath, sheet_name=1, parse_dates=[5, 6, 7])
